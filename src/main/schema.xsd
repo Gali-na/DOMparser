@@ -1,0 +1,76 @@
+<?xml version ='1.0'?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://www.w3schools.com"
+           xmlns="https://www.w3schools.com"
+           elementFormDefault="qualified">
+    <xs:element name="humans">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="human" type="Human" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:complexType name="Human">
+        <xs:sequence>
+            <xs:element name="name">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[A-Z]{1}[a-z]{1,12}"/>
+                </xs:restriction>
+            </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="surname">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[A-Z]{1}[a-z]{1,12}"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="age">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="0"/>
+                        <xs:maxInclusive value="120"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="adress" type="Adress"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:complexType name="Adress">
+        <xs:sequence>
+            <xs:element name="city">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[A-Z]{1}[a-z]{1,12}"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
+
+
+            <xs:element name="houseNumber">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[0-9]{1,4}[a-z]{0,1}"/>
+                </xs:restriction>
+            </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="street">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[A-Z]{1}[a-z]{1,12}"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
+
+
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

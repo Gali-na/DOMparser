@@ -1,0 +1,57 @@
+<w3s:humans xmlns:w3s="https://www.w3schools.com">
+  <!--1 or more repetitions:-->
+  <w3s:human>
+    <w3s:name>Luba</w3s:name>
+    <w3s:surname>Ostapencko</w3s:surname>
+    <w3s:age>35</w3s:age>
+    <w3s:adress>
+      <w3s:city>Dfdfg</w3s:city>
+      <w3s:houseNumber>12</w3s:houseNumber>
+      <w3s:street>Geroiv</w3s:street>
+    </w3s:adress>
+  </w3s:human>
+
+  <w3s:human>
+    <w3s:name>Natalia</w3s:name>
+    <w3s:surname>Zolotareva</w3s:surname>
+    <w3s:age>56</w3s:age>
+    <w3s:adress>
+      <w3s:city>Kharkiv</w3s:city>
+      <w3s:houseNumber>35</w3s:houseNumber>
+      <w3s:street>Zarechn</w3s:street>
+    </w3s:adress>
+  </w3s:human>
+
+  <w3s:human>
+    <w3s:name>Natalia</w3s:name>
+    <w3s:surname>Zolotareva</w3s:surname>
+    <w3s:age>56</w3s:age>
+    <w3s:adress>
+      <w3s:city>Kharkiv</w3s:city>
+      <w3s:houseNumber>35</w3s:houseNumber>
+      <w3s:street>Zarechn</w3s:street>
+    </w3s:adress>
+  </w3s:human>
+
+  <w3s:human>
+    <w3s:name>Masha</w3s:name>
+    <w3s:surname>Zolotareva</w3s:surname>
+    <w3s:age>9</w3s:age>
+    <w3s:adress>
+      <w3s:city>Kivoy</w3s:city>
+      <w3s:houseNumber>55</w3s:houseNumber>
+      <w3s:street>Geroy</w3s:street>
+    </w3s:adress>
+  </w3s:human>
+
+  <w3s:human>
+    <w3s:name>Ahdrey</w3s:name>
+    <w3s:surname>Zenovev</w3s:surname>
+    <w3s:age>39</w3s:age>
+    <w3s:adress>
+      <w3s:city>Kivoy</w3s:city>
+      <w3s:houseNumber>45</w3s:houseNumber>
+      <w3s:street>Vostoch</w3s:street>
+    </w3s:adress>
+  </w3s:human>
+</w3s:humans>
